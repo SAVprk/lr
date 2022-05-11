@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+}
+section div{
+    min-height: 600px;
+    background: #fff;
+    border: 1px solid black;
+    padding: 0.5em 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    font-weight: 600;
+}
+span{
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    display: block;
+    height: 3rem;
+}
+header, footer{
+    text-align: center;
+    height: 4em;
+    background: rgb(144, 21, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    margin: 0;
+}
+
+img{
+    height: 400px;
+    width: 90%;
+    padding-top: 2em;
+    object-fit: cover;
+    object-position: 0 100%;
+}
+p{
+    font-size: 12px;
+}
+div p{
+    padding: 4em 0 0 0;
+    margin: 0;
+}
+.left-side {
+width:30%;
+}
+
+
+.right-side {
+width:30%;
+}
+
+.center {
+   width: 30%;
+}
+
+.footer {
+clear:both;
+
+}
+.content{
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    padding: 4em;
+}

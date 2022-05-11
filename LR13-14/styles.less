@@ -1,0 +1,56 @@
+
+@bg-color: #4a4a4a;
+@bg-color2:#eee;
+@color:#f9f9f9;
+@position:relative;
+@float:left;
+.font(@_size, @_color){
+    font-size: @_size;
+    color:@_color;
+}
+body {
+    color: @bg-color;
+    padding-left: 200px;
+    padding-right: 190px;
+    min-width: 240px;
+  }
+  header,
+  footer {
+    background-color:@bg-color;
+    color: @color;
+    margin-left: -200px;
+    margin-right: -190px;
+  }
+  main {
+    background:@color;
+    padding: 0 20px;
+    width: 100%;
+    position: @position;
+    float: @float;
+    .font(24px, rgb(29, 24, 24));
+    & nav,aside{
+        .font(16px, rgb(32, 32, 32));
+    }
+  }
+  nav,
+  aside {
+    background: @bg-color2;
+    position: @position;
+    float: @float;
+  }
+  nav {
+    width: 180px;
+    padding: 0 10px;
+    right: 240px;
+    margin-left: -100%;
+  }
+  aside {
+    width: 130px;
+    padding: 0 10px;
+    margin-right: -100%;
+  }
+  footer {
+    clear: both;
+  }
+  
+  
