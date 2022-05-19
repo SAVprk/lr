@@ -1,0 +1,18 @@
+img{
+    height: 200px;
+}
+.linear{
+    background: linear-gradient(red, rgb(0, 26, 255));
+}
+.diagonal-gradient{
+    background: linear-gradient(to bottom right, rgb(0, 255, 64), rgb(0, 114, 6));
+}
+.auto-spaced-linear-gradient{
+    background: linear-gradient(rgb(255, 115, 0), rgb(32, 160, 0), rgb(251, 255, 0), rgb(187, 0, 204));
+}
+.simple-radial{
+    background: radial-gradient(rgb(255, 174, 0), rgb(255, 251, 0));
+}
+.radial-gradient{
+        background: radial-gradient(at 0% 0%, rgb(36, 182, 0) 30%, #1403f7 50%);
+}

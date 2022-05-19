@@ -4,8 +4,7 @@ body {
   padding-right: 190px;
   min-width: 240px;
 }
-header,
-footer {
+header, footer {
   background-color: #4a4a4a;
   color: #f9f9f9;
   margin-left: -200px;
@@ -20,14 +19,12 @@ main {
   font-size: 24px;
   color: #1d1818;
 }
-main nav,
-main aside {
+main nav, main aside {
   font-size: 16px;
   color: #202020;
 }
-nav,
-aside {
-  background: #eeeeee;
+nav, aside {
+  background: #eee;
   position: relative;
   float: left;
 }
